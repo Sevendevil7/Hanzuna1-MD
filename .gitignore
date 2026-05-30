@@ -1,0 +1,54 @@
+# ╔══════════════════════════════════════════════╗
+# ║       🦊 HANZUNA MD — .gitignore            ║
+# ║   © Ⲙʀ Ꮋᴀɴᴢᴜ | Tous droits réservés        ║
+# ╚══════════════════════════════════════════════╝
+
+# ── SECRETS (ne JAMAIS publier) ───────────────
+config.json
+.env
+.env.*
+*.key
+*.pem
+
+# ── SESSION WHATSAPP ──────────────────────────
+session/
+session.json
+auth_info_baileys/
+auth_info/
+creds.json
+
+# ── DONNÉES BOT ───────────────────────────────
+data/
+*.db
+*.sqlite
+
+# ── FICHIERS TEMPORAIRES ──────────────────────
+tmp/
+temp/
+*.tmp
+*.log
+logs/
+
+# ── NODE.JS ───────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn
+
+# ── SYSTÈME ───────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── BUILD / CACHE ─────────────────────────────
+dist/
+build/
+.cache/
+coverage/

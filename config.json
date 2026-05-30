@@ -1,0 +1,24 @@
+{
+  "_info": "╔══════════════════════════════════════════════════╗",
+  "_info2": "║       🦊 HANZUNA MD — CONFIGURATION             ║",
+  "_info3": "║   Remplis uniquement ce fichier pour déployer   ║",
+  "_info4": "║   © Ⲙʀ Ꮋᴀɴᴢᴜ | Tous droits réservés           ║",
+  "_info5": "╚══════════════════════════════════════════════════╝",
+
+  "_section1": "=== OBLIGATOIRE ===",
+  "phoneNumber"  : "",
+  "anthropicKey" : "",
+
+  "_section2": "=== OPTIONNEL ===",
+  "deployerName" : "",
+  "owner2"       : "",
+  "telegramToken": "",
+
+  "_help": {
+    "phoneNumber"  : "Ton numéro WhatsApp SANS le + (ex: 50912345678)",
+    "anthropicKey" : "Clé API Anthropic — https://console.anthropic.com",
+    "deployerName" : "Ton nom (affiché dans les messages du bot)",
+    "owner2"       : "Numéro d'un 2ème owner SANS le + (optionnel)",
+    "telegramToken": "Token bot Telegram pour .tg (optionnel) — @BotFather"
+  }
+}
